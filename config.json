@@ -1,0 +1,37 @@
+{
+   "ver":"4.1.1",
+   "hostURL":"http://10.29.4.40",
+   "loginPath":"/touchwarehouse",
+   "port":"80",
+   "networkTimeout":600,
+   "hapticFeedback":true,
+   "debug":true,
+   "showSnapshot":true,
+   "showScreenInfo":false,
+   "MessageDataWedgeProfile":"TW-OFF",
+   "InputDataWedgeProfile":"TW-SCAN",
+   "MenuDataWedgeProfile":"TW-OFF",
+   "HtmlDataWedgeProfile":"TW-OFF",
+   "legacyMode":false,
+   "orientation":"auto",
+   "theme":"manhattan2",
+   "menuNumbers":false,
+   "trackTitle":true,
+   "messageSound":"oops.wav",
+   "allowMultiSession":true,
+   "tts":true,
+   "elements":[
+      {
+         "matchId":"1250",
+         "onMaxLength":"autoEnter"
+      },
+      {
+         "matchId":"1050",
+         "onMaxLength":"autoSubmit"
+      },
+      {
+         "matchId":"1080",
+         "onMaxLength":"autoAdvance"
+      }
+   ]
+}

@@ -1,0 +1,16 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="7.1" type="LicenseMgr">
+    <parm name="LicenseChoice" value="zebra" />
+    <characteristic type="LicenseZebra">
+      <parm name="LicenseActionZebra" value="activate" />
+      <characteristic type="NewLicenseZebra">
+        <characteristic type="LicenseSourceURL">
+          <parm name="LicenseSource" value="Zebra Cloud" />
+          <parm name="LicenseCloudURL" value="2" />
+        </characteristic>
+        <parm name="ActivationID" value="b53b-ac83-f36b-4e2e-9371-308a-e22c-798d" />
+        <parm name="ActivationQuantity" value="1" />
+      </characteristic>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
